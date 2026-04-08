@@ -36,6 +36,12 @@ https://credo.science/konkurs2026/
 
 ---
 
+### 4. Raw example detections
+A collection of raw, unprocessed particle trace images.  
+Includes several packages of example detections directly from smartphone captures.
+- `raw_example_detections/`
+---
+
 ## 🧪 Use cases
 
 - Training and testing image classification models
