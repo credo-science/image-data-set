@@ -1,16 +1,53 @@
-# image-data-set
-collections of particle trace images from smartphones. (These collections are used both in publications and to view sample traces for your own classification.)
+# Image Data Set
 
+A collection of particle trace images captured using smartphones.
 
-# A small collection of classified data
-data-set.zip
+These datasets are used in scientific publications and can also serve as sample data for developing and testing your own classification models.
 
-# A collection of traces assigned to a specific group
-artefacts.tar.gz
-dots.tar.gz
-tracks.tar.gz
-worms.tar.gz
+---
 
-500 tracks to classify – used in the 2026 Particle Hunter Competition (https://credo.science/konkurs2026/)
-ŁowcyCząstek2026.tar.gz
-	
+## 📦 Contents
+
+### 1. Small labeled dataset
+A compact dataset containing pre-classified particle traces.
+
+- `data-set.zip`
+
+---
+
+### 2. Classified trace collections
+Datasets grouped by trace type:
+
+- `artefacts.tar.gz` – non-particle artefacts
+- `dots.tar.gz` – dot-like traces
+- `tracks.tar.gz` – linear particle tracks
+- `worms.tar.gz` – curved ("worm-like") traces
+
+---
+
+### 3. Competition dataset
+Dataset prepared for classification tasks.
+
+- `ŁowcyCząstek2026.tar.gz`  
+  Contains 500 particle tracks to classify.
+
+Used in the **Particle Hunter Competition 2026**:  
+https://credo.science/konkurs2026/
+
+---
+
+## 🧪 Use cases
+
+- Training and testing image classification models
+- Benchmarking detection algorithms
+- Educational purposes and experimentation
+
+---
+
+## 📌 Notes
+
+- All datasets consist of images captured with smartphones.
+- File formats: `.zip`, `.tar.gz`, `.png`
+- Classification labels are provided only in selected datasets.
+
+---
